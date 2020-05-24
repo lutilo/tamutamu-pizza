@@ -48,7 +48,7 @@
 
 }
 #home{
-  font-size: 20px;
+  font-size: 29px;
   text-transform: uppercase;
   background-color:crimson;
   border: none;
@@ -65,14 +65,111 @@
 }
 .about{
   color: white;
-  font-family: georgia;
+  font-family: Chelsea Market;
   display: none;
+  font-size: 23px;
 }
+#welcom{
+  color: white;
+  font-family: Chelsea Market;
+}
+
 #welcome{
   margin-top: 5%;
   color: white;
-  font-family: georgia;
+  font-family: Chelsea Market;
+  font-size: 23px;
+}
+.name{
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: orange;
+  font-size: 22px;
 }
 
+.order{
+  color: white;
+}
+.order:hover{
+  color: cyan;
+}
+.card{
+  float:left;
+  width:30%;
+  text-align: center;
+  background-color:whitesmoke;
+  color: black;
+
+}
+
+.card-add-cart{
+  display: none;
+}
+.card-checkout{
+  float: right;
+  width:30%;
+  font-size: large;
+}
+.card-body h6{
+  float: left;
+  color:orange;
+  text-transform: uppercase;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size:14px;
+}
+
+.input-group span{
+  font-size: 14px;
+}
+#price{
+  font-family: Chelsea Market;
+  font-weight: bolder;
+}
+#home-about{
+margin-top: 12vh;
+
+}
+.sizes{
+  font-size: 14px;
+}
+/* End of Landing-page */
+
+/* Order now */
+.hawaian{
+  background-color: white;
+  float:left;
+}
+.hawaian a{
+  text-decoration-line: none;
+  color: black;
+}
+
+#add{
+  float:right;
+  color:crimson;
+  text-transform: uppercase;
+  font-family: 'Sedgwick Ave Display', cursive;
+
+}
+#add-pizza{
+  display: none;
+}
+.card-checkout{
+  background-color: wheat;
+  float:right;
+}
+.card-checkout p{
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+.add{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border:none;
+  background-color:black;
+  color:orangered;
+  font-size: 18px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size:30px;
+  border-radius: 10px;
 }
 /* End of order */
