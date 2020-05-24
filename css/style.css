@@ -1,0 +1,24 @@
+.first-bg{
+  background-image: url(../images/banner-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height:auto;
+
+}
+
+.hidden{
+  display:none;
+}
+
+.unhidden{
+  display:block;
+}
+#pizza{
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: white;
+}
+
+}
+/* End of order */
