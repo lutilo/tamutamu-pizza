@@ -30,3 +30,14 @@ $(document).ready(function(){
 
 });
 
+
+  $(".about-toggle").click(function(){
+    $(".about").fadeToggle();
+  });
+  $(".order").click(function(){
+    $("#add-pizza").fadeToggle();
+  });
+  $(".add-cart").click(function(){
+    $(".card-add-cart").show();
+  });
+  
