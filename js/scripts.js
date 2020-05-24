@@ -18,3 +18,15 @@ $(document).ready(function(){
     var total = parseInt(sizep + topp + crustp + deliveryp);
     var grandTotal = parseInt(total*quantity);
 
+      $(".sprice").append(sizep);
+      $(".tprice").append(topp);
+      $(".cprice").append(crustp);
+      $(".dprice").append(deliveryp);
+      $(".total").append(total);
+      $(".ptotal").append(grandTotal);
+
+        alert("The total price is " + grandTotal)
+        $(".myform").hide();
+
+});
+
