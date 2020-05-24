@@ -107,3 +107,99 @@
             </div>
             </div>
           </div>
+
+          <!-- cart form -->
+          <div class="col-md purchase" id="">
+            <form class="form myform " style="margin-top: 15vh;">
+              <div class="card  card-add-cart">
+                <div class="card-header">
+                  <p class="text-uppercase name"><strong>Tamutamu </strong></p>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6" id="sizes">
+                      <h6>Size</h6>
+                      <hr>
+                      <div id="sizes">
+                        <div class="flavour">
+                          <select class="input-group sizes" required>
+                            <option value="450">Small <span class="price">Ksh.450</span> </option>
+                            <option value="750">Medium <span class="price">Ksh.750</span> </option>
+                            <option value="1500">Large <span class="price">Ksh.1500</span> </option>
+                          </select>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <h6>Delivery!</h6>
+                      <hr>
+                      <div class="input-group text-center">
+                        <div class="delivery">
+                          <input class="mt-1 deliver ml-3" type="radio" name="delivery"
+                            value="500"><span>Delivery</span>
+                          <br>
+                          <input class="mt-1 no-delive ml-1" type="radio" name="delivery"
+                            value="0"><span>Pickup</span>
+                        </div>
+
+                      </div>
+                      <br>
+                    </div>
+
+                    <hr>
+                    <div class="toppings">
+                      <h6>Extra topping</h6>
+                      <hr>
+                      <div class="input-group text-center crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="150"><span>Onion ksh.150</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="120"><span>Spinach ksh.120</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="100"><span>Extra Cheese
+                          ksh.100</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="130"><span>Sausage ksh.130</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="150"><span>Bacon ksh.150</span>
+                      </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="crusts">
+                      <h6>Crust <span id="price"></h6>
+                      <hr>
+                      <div class="input-group text-center crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="200"><span>Crispy ksh.200</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="250"><span>Cracker ksh.250</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="210"><span>Stuffed ksh.210</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="230"><span>Romana ksh.230</span>
+                      </div>
+                      <div class="input-group crust">
+                        <input class="mt-1" type="checkbox" name="topping" value="250"><span>Grilled ksh.250</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer text-center">
+                  <span>Quantity</span>
+                  <input class="quantity" type="number" name="quantity" min="1" max="5">
+                  <div class="flavour" id="cart">
+                    <div class="add-cart pt-3">
+                      <input class="add" type="submit" name="add" value="add cart">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </form>
