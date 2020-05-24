@@ -19,6 +19,34 @@
   font-family: 'Sedgwick Ave Display', cursive;
   color: white;
 }
+#tamu{
+  color:orange;
+  text-transform: uppercase;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-weight: bold;
+}
+.pitsa{
+  border: 2px solid #fff;
+}
+.banner-bg{
+  position:relative;
+  background-color:black;
+  height: auto;
+  opacity: 0.8;
+}
+.buttons{
+  margin-bottom: 5%;
+}
+#button{
+  display:inline-block;
+  transform: rotate(320deg);
+  padding-bottom: 5%;
+}
+#order{
+  display:inline-block;
+  transform: rotate(360deg);
+
+}
 
 }
 /* End of order */
