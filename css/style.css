@@ -47,6 +47,32 @@
   transform: rotate(360deg);
 
 }
+#home{
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color:crimson;
+  border: none;
+  font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+#home a:hover{
+  color:cyan;
+}
+#home a{
+  color: white;
+  text-decoration: none;
+}
+.about{
+  color: white;
+  font-family: georgia;
+  display: none;
+}
+#welcome{
+  margin-top: 5%;
+  color: white;
+  font-family: georgia;
+}
 
 }
 /* End of order */
