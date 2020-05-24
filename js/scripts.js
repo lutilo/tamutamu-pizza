@@ -48,4 +48,11 @@ $(document).ready(function(){
     alert(" Your pizza will be delivered at "  + location + " once you checkout ");
 
   });
-  
+  $("#checkout").click(function(){
+    alert("Youve succesfully made an order" + ',' + "Thank you for choosing Tamutamu")
+    $(".card-checkout").hide();
+    location.reload();
+  });
+
+
+});
