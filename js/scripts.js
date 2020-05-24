@@ -40,4 +40,12 @@ $(document).ready(function(){
   $(".add-cart").click(function(){
     $(".card-add-cart").show();
   });
+  $(".deliver").click(function(){
+    var deliveryp = parseInt($(".delivery input:checked").val());
+    alert("The delivery price is " + deliveryp);
+    var location = prompt("Enter Location");
+    var contact = prompt("Enter phone number")
+    alert(" Your pizza will be delivered at "  + location + " once you checkout ");
+
+  });
   
